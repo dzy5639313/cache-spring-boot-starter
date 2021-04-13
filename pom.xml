@@ -16,6 +16,8 @@
     <description>Memory cache base on caffeine, rabbitmq and spring cloud bus with Spring Boot</description>
     <properties>
         <java.version>1.8</java.version>
+        <hutool.version>4.0.9</hutool.version>
+        <maven-gpg-plugin.version>1.6</maven-gpg-plugin.version>
     </properties>
     <dependencies>
         <dependency>
@@ -47,7 +49,7 @@
         <dependency>
             <groupId>cn.hutool</groupId>
             <artifactId>hutool-json</artifactId>
-            <version>4.0.9</version>
+            <version>${hutool.version}</version>
         </dependency>
     </dependencies>
          
